@@ -1,0 +1,39 @@
+print("hello world")
+
+x=9
+y=6
+print(x+y)
+print(id(x))
+print(type(y))
+
+a,b,c=67,78,89
+print(b)
+
+a,b,c=67,78,89
+print(b)
+a,b=c=b,c,a
+print(a,b,c)
+print(c)
+
+x = y = z = "char"
+print(id(y))
+print(id(z))
+print(x)
+print(y)
+print(z)
+
+x = "I "
+y = "M "
+z = "learning python"
+n = 56
+i = 89
+print(x+y)
+print(x+y+z)
+#there are 3 types of datatypes numeric sequence mapping
+
+a=90
+print(float(a))
+b=89.0
+print(int(b))
+c=56+78j
+print(int(c.real))
